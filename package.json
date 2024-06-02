@@ -1,0 +1,76 @@
+{
+  "name": "gatsby-starter-boilerplate",
+  "private": true,
+  "description": "A boilerplate starter for Gatsby",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Flotiq team <helo@flotiq.com> (https://flotiq.com/)",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.0.17",
+    "@headlessui/react": "^1.7.19",
+    "@heroicons/react": "1.0.6",
+    "@popperjs/core": "^2.11.8",
+    "flotiq-components-react": "^1.1.5",
+    "gatsby": "^5.13.4",
+    "gatsby-plugin-google-gtag": "^5.13.1",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-source-flotiq": "^5.2.0",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/eslint-parser": "^7.24.1",
+    "@babel/plugin-syntax-flow": "^7.24.1",
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "@babel/preset-react": "^7.24.1",
+    "@hot-loader/react-dom": "17.0.2",
+    "@typescript-eslint/parser": "^7.7.0",
+    "autoprefixer": "^10.4.19",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.0.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flotiq/gatsby-starter-boilerplate"
+  },
+  "bugs": {
+    "url": "https://github.com/flotiq/gatsby-starter-boilerplate/issues"
+  },
+  "resolutions": {
+    "webpack": "^5.91.0"
+   }
+}
